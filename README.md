@@ -13,7 +13,7 @@ The following steps must all be done on all instances in the cluster.
 This module can be installed in any module path in one of `$ENV:PSModulePath` on each instance of the cluster.
 For example:
 ```PowerShell
-git clone https://github.com/jaywangpeng/MasterNode.git "$Env:ProgramFiles\WindowsPowerShell\Modules"
+git clone https://github.com/jaywangpeng/MasterNode.git "$Env:ProgramFiles\WindowsPowerShell\Modules\MasterNode"
 Import-Module MasterNode
 ```
 
